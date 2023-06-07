@@ -112,6 +112,42 @@
 
       <!-- Portfolio Grid Items -->
       <div class="row">
+        
+        <!-- Portfolio Item 9 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9" data-theVideo="https://www.youtube.com/embed/kO4aICMYYWs?autoplay=1&loop=1&allowfullscreen&playlist=kO4aICMYYWs">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <p>GunSense</p>
+              </div>
+            </div>
+            <img class="img-fluid rounded" src="img/portfolio/gunsense-target.png" alt="gun sense">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 8 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8" data-theVideo="https://www.youtube.com/embed/tl-bVxbQsSU?autoplay=1&loop=1&allowfullscreen&playlist=tl-bVxbQsSU">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <p>Color Tool</p>
+              </div>
+            </div>
+            <img class="img-fluid rounded" src="img/portfolio/colortool-target.png" alt="color tool">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 7 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <p>Tiger Blogs</p>
+              </div>
+            </div>
+            <img class="img-fluid rounded" src="img/portfolio/tigerblogs-target.png" alt="tiger blogs">
+          </div>
+        </div>
 
         <!-- Portfolio Item 1 -->
         <div class="col-md-6 col-lg-4">
@@ -339,6 +375,157 @@
   </div>
 
   <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="portfolioModal9Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <p class="portfolio-modal-title h2 text-secondary text-uppercase mb-0">GunSense</p>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>              
+                <!-- Portfolio Modal - Video -->                
+                <iframe class="mb-4" width="100%" height="350" src="" allowfullscreen></iframe>
+                <!-- Portfolio Modal - Text -->
+                <p class="h5 mb-2">Gunsense - A gun violence tracking app that maps incidents of gun violence and connects users to government officials</p>
+                <p class="h6 mb-2"> * This project began as an entry to DeveloperWeek 2023 Hackathon. See project entry page <a href="https://devpost.com/software/gunsense" target="_blank">here</a></p>
+                <p class="h6 mb-2"> * Development continues as an open source project on Github <a href="https://github.com/Danielxburns/gunsense" target="_blank">here</a></p>
+                <ul class="mb-5 text-left">
+                  <li>Built with ReactJS, Redux with redux-toolkit for state management, MaterialUI for styling and Firebase for hosting, authentication and a data storage</li>
+                  <li>Created a Figma wireframe to present concept to the back end engineering team</li>
+                  <li>Set up file architecture using the 'feature folder' approach with a 'duck' file for each slice of state (users, incidents, representatives, and letters)</li>
+                  <li>Used RTK's createEntityAdaptor to normalize the data inside each slice and provide convenient native selector functions</li>
+                  <li>Used redux-thunk to handle the asynchronous function calls following a standard async fetching pattern with states for loading, success and failure</li>
+                  <li>Designed data schemas and created mock data using Mockeroo to test API calls for all four features</li>
+                  <li>Integrated redux-logger to log the flow of state throughout the application during developement</li>
+                  <li>Learned MUI on-the-fly during the 2 week hackathon to quickly build out beautiful and responsive components with consistent theming</li>
+                  <li>Post hackathon I independently initialized the project on Firebase, set up authentication and a Firestore database</li>
+                  <li>Generated serverless utility functions to sign up, sign in, and sign out users and connected them to the database and the appropriate slice of state in the Redux store</li>
+                  <li>Implemented requests to Google Civic Information API to fetch User's government representatives based on their address and reshaped response data to be displayed in a personalized list of representatives</li>
+                  <li>Set up hosting on Firebase with a custom domain</li>
+                  <li>See it live here: <a href="https://gunsense.danielburns.info/" target="_blank">https://gunsense.danielburns.info/</a></li>
+                </ul>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioModal8Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <p class="portfolio-modal-title h2 text-secondary text-uppercase mb-0">Color Tool</p>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>              
+                <!-- Portfolio Modal - Video -->                
+                <iframe class="mb-4" width="100%" height="350" src="" allowfullscreen></iframe>
+                <!-- Portfolio Modal - Text -->
+                <p class="h5 mb-2">Color Tool - A progressive web app to improve understanding of working with RGBA and HSLA color models</p>
+                <ul class="mb-5 text-left">
+                  <li>Built with ReactJS using Context API for state management and deployed to Netlify</li>
+                  <li>Implemented as a lightweight progressive web app</li>
+                  <li>Uses controlled components in React by capturing the HTML input values from sliders, arrows, and text inputs and passing them through React state</li>
+                  <li>Comes pre-loaded with educational diagrams and transparent PNG textures</li>
+                  <li>Users choose a background or foreground image and adjust the color of the middle layer to view the effects of transparency layers on images</li>
+                  <li>Compare relationships between RGBA and HSLA color models</li>
+                  <li>Test it out here: <a href="https://danielscolorpicker.netlify.app/" target="_blank">https://danielscolorpicker.netlify.app/</a></li>
+                </ul>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal7Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <p class="portfolio-modal-title h2 text-secondary text-uppercase mb-0">Tiger Blogs</p>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Video -->                
+                <a href="https://devpost.com/software/serverless-blogging-web-application"><img class="img-fluid rounded mb-5" src="img/portfolio/tigerblogs.png" alt=""></a>
+                <!-- Portfolio Modal - Text -->
+                <p class="h5 mb-2">Tiger Blogs - A serverless blogging web application built for DeveloperWeek Cloud 2022 Hackathon</p>
+                <ul class="mb-5 text-left">
+                  <li>Built using React, Node,and MongoDB and deployed to Azure web service</li>
+                  <li>Worked closely with a team engineers using Agile methodologies, performing bi-weekly stand-ups and regular code reviews through Git version control</li>
+                  <li>Responsible for architecting front end features for user's info, sign in / sign out functionality, creating new posts, and a blog feed that can be filtered by category</li>
+                  <li>Used react-router-dom for routing and React's Context API for state management</li>
+                  <li>Used react-bootstrap for component styling</li>
+                  <li>Integrated junior developer's css stylesheet into React's component base architecture</li>
+                </ul>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Portfolio Modal 1 -->
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
