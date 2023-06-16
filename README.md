@@ -2,6 +2,10 @@
 
 Used to highlight some of my recent projects
 
+# Deploy
+
+ - push to 'master' branch on Github
+ - create pull request and merge to 'GHPages' branch
 
 -------------------------------------
 # About the Template
