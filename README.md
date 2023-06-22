@@ -7,9 +7,11 @@ Used to highlight some of my recent projects
  - push to 'master' branch on Github
  - create pull request and merge to 'GHPages' branch
 
--------------------------------------
-# About the Template
--------------------------------------
+
+
+
+
+
 
 # [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
@@ -57,9 +59,6 @@ After installation, run `npm install` and then run `npm start` which will open u
 
 You must have npm and Gulp installed globally in order to use these features.
 
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
 ## About
 
